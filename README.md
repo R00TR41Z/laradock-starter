@@ -36,6 +36,7 @@ REDIS_PORT=6379
 
 ### Acessar a pasta do projeto e dar permissões a todos os scripts sh
 ```sh
+cd projeto
 chmod 777 *.sh
 ```
 ### inicializando o projeto
