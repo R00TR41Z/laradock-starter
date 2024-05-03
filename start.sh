@@ -36,7 +36,7 @@ init(){
 
     echo -e "\033[34m[+] Copiando os arquivos do Docker... [+]"
 
-    cp -r "/tmp/$1/docker" "/tmp/$1/docker-compose.yml" "/tmp/$1/Dockerfile" "/tmp/$1/.gitignore" "/tmp/$1/*.sh" "./$1" || {
+    cp -r "/tmp/$1/docker" "/tmp/$1/docker-compose.yml" "/tmp/$1/Dockerfile" "/tmp/$1/.gitignore" "/tmp/$1/up.sh" "/tmp/$1/down.sh" "/tmp/$1/terminal.sh" "./$1" || {
         echo -e "\033[31m[-] Falha ao copiar os arquivos do Docker [-]"
         exit 1
     }
